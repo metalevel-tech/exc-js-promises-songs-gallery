@@ -1,16 +1,18 @@
 {
-  "name": "js-promises-songs-gallery",
-  "version": "1.0.0",
+  "name": "exc-js-promises-songs-gallery",
+  "homepage": "https://metalevel-tech.github.io/exc-js-promises-songs-gallery",
+  "version": "1.1.0",
   "description": "A simple JavaScript app, that I was create while I was learning JavaScript promises.",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js",
-    "watch": "supervisor server.js"
+    "watch": "supervisor server.js",
+    "deploy": "gh-pages -d public"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/metalevel-tech/js-promises-songs-gallery.git"
+    "url": "git+https://github.com/metalevel-tech/exc-js-promises-songs-gallery.git"
   },
   "keywords": [
     "javascript",
@@ -21,14 +23,14 @@
   "author": "Spas Z. Spasov",
   "license": "CC0-1.0",
   "bugs": {
-    "url": "https://github.com/metalevel-tech/js-promises-songs-gallery/issues"
+    "url": "https://github.com/metalevel-tech/exc-js-promises-songs-gallery/issues"
   },
-  "homepage": "https://songsg.metalevel.tech/github",
   "dependencies": {
     "body-parser": "^1.20.0",
     "express": "^4.18.1"
   },
   "devDependencies": {
+    "gh-pages": "^5.0.0",
     "supervisor": "^0.12.0"
   }
 }
